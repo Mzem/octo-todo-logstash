@@ -1,9 +1,4 @@
 {
-  "name": "Logstash Boilerplate",
-  "description": "Boilerplate for deploying Logstash on Scalingo",
-  "logo": "https://scalingo.com/logo.svg",
-  "repository": "https://github.com/Scalingo/logstash-boilerplate",
-  "website": "https://scalingo.com",
   "formation": {
     "web": {
       "amount": 1,
@@ -12,10 +7,11 @@
   },
   "env": {
     "USER": {
-      "value": "logstash-admin",
+      "value": "admin",
       "required": true
     },
     "PASSWORD": {
+      "value": "admin",
       "generator": "secret",
       "required": true
     }
